@@ -1,0 +1,25 @@
+{
+  "spec": "2.0",
+  "mod_id": "WasdForVab",
+  "name": "WASD for VAB",
+  "author": "ArchLinus, Linuxgurugamer, cheese3660",
+  "description": "Converts VAB camera to a WASD flycam",
+  "source": "https://github.com/KSP2Community/WASDForVABRedux",
+  "version": "0.5.0",
+  "version_check": "https://raw.githubusercontent.com/KSP2Community/WASDForVABRedux/Assets/WasdForVab/swinfo.json",
+  "ksp2_version": {
+    "min": "0.2.3.0",
+    "max": "*"
+  },
+  "dependencies": [
+    {
+      "id": "SpaceWarp2",
+      "version": {
+        "min": "2.0.0",
+        "max": "*"
+      }
+    }
+  ],
+  "conflicts": [],
+  "main-assembly": "WasdForVab.dll"
+}

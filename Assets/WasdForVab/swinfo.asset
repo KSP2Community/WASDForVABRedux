@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9065a46703c44e8fabd263388eaeb6e7, type: 3}
+  m_Name: swinfo
+  m_EditorClassIdentifier: 
+  id: WasdForVab
+  name: WASD for VAB
+  author: ArchLinus, Linuxgurugamer, cheese3660
+  description: Converts VAB camera to a WASD flycam
+  version: 0.5.0
+  versionCheck: https://raw.githubusercontent.com/KSP2Community/WASDForVABRedux/Assets/WasdForVab/swinfo.json
+  minKsp2Version: 0.2.3.0
+  maxKsp2Version: '*'
+  source: https://github.com/KSP2Community/WASDForVABRedux
+  allGroup: {fileID: 11400000, guid: 5ed2e4b913883d844a71636cac26e699, type: 2}
+  partsGroup: {fileID: 11400000, guid: 79a984471892e37449b8e0ceafdd1a98, type: 2}
+  missionsGroup: {fileID: 11400000, guid: 23cd425f90c1e764ca6ed373e1622e18, type: 2}
+  celestialBodiesGroup: {fileID: 11400000, guid: 288c252256da7cc4d8269a3ca21fc604, type: 2}
+  scienceExperimentGroup: {fileID: 11400000, guid: 366aa7c33dc284e4bb8fca6617dc3bf1, type: 2}
+  techNodeDataGroup: {fileID: 11400000, guid: b1060948ebd764b4f97e2f48e4013178, type: 2}
+  addressablesProfileId: 782d26719590f3640a2fa2a330a9fe32
+  dependencies:
+  - id: SpaceWarp2
+    min: 2.0.0
+    max: '*'
+  incompatibilities: []
